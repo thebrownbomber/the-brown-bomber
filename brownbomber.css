@@ -1,0 +1,99 @@
+body{background-color: black;}
+h1{text-align:center;
+font-size:52px;
+color:	#FF69B4;
+font-family: 'Courier New', Courier, monospace;
+
+}
+p{text-align:center;
+font-size:25px;
+color:	#FF69B4;
+font-family:'Courier New', Courier, monospace }
+
+
+
+img{max-width: 500px; height: auto;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  img{max-width:500px; height:auto}
+
+
+a { outline: none;
+    text-decoration: none;
+    text-align: center;
+    font-size:32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600
+}
+
+a:link { color:#FF69B4
+}
+
+a:visited { color:#FF69B4
+}
+
+.container {
+    display: flex;
+    gap: 0.625%;
+  }
+  
+  a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: #FF69B4;
+  }
+  
+  a:link,
+  a:visited,
+  a:focus {
+    background: red;
+    color:#FF69B4;
+  }
+  
+  a:hover {
+    background: red;
+  }
+  
+  a:active {
+    background: red;
+    color: #FF69B4;}
+
+ 
+    .column {
+        float: left;
+        width: 55%;
+        padding: 5px;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      #comment-box, #post {
+        border: none;
+        border-radius: 5px;
+    }
+    #post:hover{
+        background-color: deeppink;
+    }
+
+    @media only screen and (max-width: 500px) {
+
+
+        .center {
+    
+    
+            width: 300px;
+    
+    
+        }
+    
+    
+    }

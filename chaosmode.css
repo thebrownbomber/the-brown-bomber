@@ -1,0 +1,31 @@
+body {
+    background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+
+
+}
+
+p{font-family:'Courier New', Courier, monospace;
+color:	black;
+text-align:left;
+background:orchid}
+
+#chantal{float:left}
+#princess{float:right}
+
+#post:hover{
+    background-color: deeppink;
+}
+@media only screen and (max-width: 500px) {
+
+
+    #chantal{
+
+
+        width: 300px;
+
+
+    }
+    #princess{width: 300px;}
+
+
+}
